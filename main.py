@@ -8,7 +8,6 @@ import threading
 import socket
 import time
 
-# room_id = 11652599
 room_id = live_id
 
 credential = credential1

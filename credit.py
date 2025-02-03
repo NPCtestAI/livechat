@@ -1,0 +1,21 @@
+from bilibili_api import Credential
+
+SESSDATA = '821a2a60%2C1753954674%2C179e4%2A22CjB5RO56-eWnUS5tJ9SUPgawIgNlA18TdgB6Q1H8DYin43OoagRxVUUN-PjNS1CwtCoSVmUzRlBZem1MTkFZTHNaaEY2QjFmQTdZVHY0NFdIbDhnVmZLZlhIM01RTmZVUVNoY2RMZmdNQnBMM2JTRTN1QTBFNFVSc3NqWFhwTUw4N1NnWEpJeGlnIIEC'
+BILI_JCT = "08f5c666ffbfc8a2324b694ee1e4803b"
+BUVID3 = "B55DEBF4-0194-9F13-354D-DC395F5EC58209290infoc"
+DEDEUSERID = '450652398'
+AC_TIME_VALUE = '23b0cfc109419b34ede01cd29fa0df22'
+
+# live_id = 1017
+live_id = 21944907 #me
+# live_id = 23338334
+# live_id = 27674705
+# live_id = 4805359
+# live_id = 2010222
+# live_id = 4805359 #狸狸
+# live_id = 32425011 #RE4
+# live_id = 21532777 #编程
+
+
+
+credential1 = Credential(sessdata=SESSDATA, bili_jct=BILI_JCT, buvid3=BUVID3, dedeuserid=DEDEUSERID)
